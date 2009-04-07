@@ -11,7 +11,7 @@ namespace HostController
 {
     public partial class Main : Form
     {
-        string hostsLocation = "C:\\WINDOWS\\system32\\drivers\\etc\\hosts";
+        string hostsLocation = Environment.SystemDirectory + "\\drivers\\etc\\hosts";
         bool builtList = false;
 
         public Main()
@@ -118,7 +118,7 @@ namespace HostController
 
         private void aboutMenuButton_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(Application.ProductName.ToString() + " v" + Application.ProductVersion.ToString() + "\n© " + Application.CompanyName.ToString() + " 2008\n\nAuthor: Lloyd Pick\nE-mail: lloyd.pick@tnwa.net", "About", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show(Application.ProductName.ToString() + " v" + Application.ProductVersion.ToString() + "\n© " + Application.CompanyName.ToString() + " 2009\n\nAuthor: Lloyd Pick\nE-mail: lloydpick@gmail.com", "About", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void exitMenuButton_Click(object sender, EventArgs e)

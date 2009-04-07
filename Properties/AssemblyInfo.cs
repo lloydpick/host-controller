@@ -7,11 +7,11 @@ using System.Resources;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Host Controller")]
-[assembly: AssemblyDescription("Allows changes to the Windows XP host file")]
+[assembly: AssemblyDescription("Allows changes to the Windows XP/Vista host file")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("TNWA Group")]
+[assembly: AssemblyCompany("Lloyd Pick")]
 [assembly: AssemblyProduct("Host Controller")]
-[assembly: AssemblyCopyright("Copyright © TNWA Group 2008")]
+[assembly: AssemblyCopyright("Copyright © Lloyd Pick 2009")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -30,6 +30,6 @@ using System.Resources;
 //      Build Number
 //      Revision
 //
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("1.0.0.1")]
+[assembly: AssemblyFileVersion("1.0.0.1")]
 [assembly: NeutralResourcesLanguageAttribute("en-GB")]
