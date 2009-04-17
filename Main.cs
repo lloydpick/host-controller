@@ -118,7 +118,7 @@ namespace HostController
 
         private void aboutMenuButton_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(Application.ProductName.ToString() + " v" + Application.ProductVersion.ToString() + "\n© " + Application.CompanyName.ToString() + " 2009\n\nAuthor: Lloyd Pick\nE-mail: lloydpick@gmail.com", "About", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show(Application.ProductName.ToString() + " v" + Application.ProductVersion.ToString() + "\n© " + Application.CompanyName.ToString() + " 2009\n\nAuthor: Lloyd Pick\nE-mail: lloydpick@gmail.com\nSource: http://github.com/limi/host-controller", "About", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void exitMenuButton_Click(object sender, EventArgs e)
